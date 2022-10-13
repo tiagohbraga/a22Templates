@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+
+/* section{
+    background-color: rgb(101, 101, 228);
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+} */
+
+button:hover{
+    cursor: pointer;
+    border: 3px solid red;
+   background-color: rgb(236, 98, 98);
+   transition: 1s;
+   color: white;
+}
+
+button:active{
+    background-color: pink;
+    color: red;
+    transition: 1s;
+}
+
+
